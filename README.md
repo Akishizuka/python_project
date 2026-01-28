@@ -59,24 +59,6 @@ venv\Scripts\activate     # Windows
 pip install -r requirements.txt
 ```
 
-### Node.js 项目
-```bash
-# 安装全部依赖
-npm install
-
-# 仅安装生产环境依赖
-npm install --production
-```
-
-### 系统级依赖安装
-```bash
-# Ubuntu/Debian
-sudo apt-get install libssl-dev ffmpeg
-
-# CentOS/RHEL
-sudo yum install openssl-devel ffmpeg
-```
-
 ## 注意事项
 1. 依赖版本号指定为精确版本/区间版本，避免因版本兼容问题导致项目运行异常；
 2. 如依赖存在跨平台兼容问题，需注明（例如：`pywin32` 仅支持 Windows 系统）；
